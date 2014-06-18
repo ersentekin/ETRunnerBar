@@ -21,6 +21,7 @@
 		62605F791951CDA100D2C039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F5B1951CDA000D2C039 /* UIKit.framework */; };
 		62605F811951CDA100D2C039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62605F7F1951CDA100D2C039 /* InfoPlist.strings */; };
 		62605F831951CDA100D2C039 /* ETRunnerBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F821951CDA100D2C039 /* ETRunnerBarTests.m */; };
+		62605F8F1951CDD500D2C039 /* ETRunnerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F8E1951CDD500D2C039 /* ETRunnerBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		62605F7E1951CDA100D2C039 /* ETRunnerBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ETRunnerBarTests-Info.plist"; sourceTree = "<group>"; };
 		62605F801951CDA100D2C039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62605F821951CDA100D2C039 /* ETRunnerBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETRunnerBarTests.m; sourceTree = "<group>"; };
+		62605F8D1951CDD500D2C039 /* ETRunnerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETRunnerBar.h; path = ETRunnerBar/ETRunnerBar.h; sourceTree = "<group>"; };
+		62605F8E1951CDD500D2C039 /* ETRunnerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETRunnerBar.m; path = ETRunnerBar/ETRunnerBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		62605F5D1951CDA000D2C039 /* ETRunnerBar */ = {
 			isa = PBXGroup;
 			children = (
+				62605F8C1951CDBB00D2C039 /* ETRunnerBar */,
 				62605F661951CDA000D2C039 /* AppDelegate.h */,
 				62605F671951CDA000D2C039 /* AppDelegate.m */,
 				62605F691951CDA000D2C039 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				62605F7F1951CDA100D2C039 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62605F8C1951CDBB00D2C039 /* ETRunnerBar */ = {
+			isa = PBXGroup;
+			children = (
+				62605F8D1951CDD500D2C039 /* ETRunnerBar.h */,
+				62605F8E1951CDD500D2C039 /* ETRunnerBar.m */,
+			);
+			name = ETRunnerBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62605F8F1951CDD500D2C039 /* ETRunnerBar.m in Sources */,
 				62605F6E1951CDA000D2C039 /* ViewController.m in Sources */,
 				62605F681951CDA000D2C039 /* AppDelegate.m in Sources */,
 				62605F641951CDA000D2C039 /* main.m in Sources */,
