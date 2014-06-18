@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62605F581951CDA000D2C039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F571951CDA000D2C039 /* Foundation.framework */; };
+		62605F5A1951CDA000D2C039 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F591951CDA000D2C039 /* CoreGraphics.framework */; };
+		62605F5C1951CDA000D2C039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F5B1951CDA000D2C039 /* UIKit.framework */; };
+		62605F621951CDA000D2C039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62605F601951CDA000D2C039 /* InfoPlist.strings */; };
+		62605F641951CDA000D2C039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F631951CDA000D2C039 /* main.m */; };
+		62605F681951CDA000D2C039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F671951CDA000D2C039 /* AppDelegate.m */; };
+		62605F6B1951CDA000D2C039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62605F691951CDA000D2C039 /* Main.storyboard */; };
+		62605F6E1951CDA000D2C039 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F6D1951CDA000D2C039 /* ViewController.m */; };
+		62605F701951CDA000D2C039 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62605F6F1951CDA000D2C039 /* Images.xcassets */; };
+		62605F771951CDA100D2C039 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F761951CDA100D2C039 /* XCTest.framework */; };
+		62605F781951CDA100D2C039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F571951CDA000D2C039 /* Foundation.framework */; };
+		62605F791951CDA100D2C039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F5B1951CDA000D2C039 /* UIKit.framework */; };
+		62605F811951CDA100D2C039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62605F7F1951CDA100D2C039 /* InfoPlist.strings */; };
+		62605F831951CDA100D2C039 /* ETRunnerBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F821951CDA100D2C039 /* ETRunnerBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62605F7A1951CDA100D2C039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62605F4C1951CDA000D2C039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62605F531951CDA000D2C039;
+			remoteInfo = ETRunnerBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62605F541951CDA000D2C039 /* ETRunnerBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETRunnerBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62605F571951CDA000D2C039 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62605F591951CDA000D2C039 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62605F5B1951CDA000D2C039 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62605F5F1951CDA000D2C039 /* ETRunnerBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ETRunnerBar-Info.plist"; sourceTree = "<group>"; };
+		62605F611951CDA000D2C039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62605F631951CDA000D2C039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62605F651951CDA000D2C039 /* ETRunnerBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ETRunnerBar-Prefix.pch"; sourceTree = "<group>"; };
+		62605F661951CDA000D2C039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62605F671951CDA000D2C039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62605F6A1951CDA000D2C039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62605F6C1951CDA000D2C039 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62605F6D1951CDA000D2C039 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62605F6F1951CDA000D2C039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62605F751951CDA000D2C039 /* ETRunnerBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETRunnerBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62605F761951CDA100D2C039 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62605F7E1951CDA100D2C039 /* ETRunnerBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ETRunnerBarTests-Info.plist"; sourceTree = "<group>"; };
+		62605F801951CDA100D2C039 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62605F821951CDA100D2C039 /* ETRunnerBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETRunnerBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62605F511951CDA000D2C039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62605F5A1951CDA000D2C039 /* CoreGraphics.framework in Frameworks */,
+				62605F5C1951CDA000D2C039 /* UIKit.framework in Frameworks */,
+				62605F581951CDA000D2C039 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62605F721951CDA000D2C039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62605F771951CDA100D2C039 /* XCTest.framework in Frameworks */,
+				62605F791951CDA100D2C039 /* UIKit.framework in Frameworks */,
+				62605F781951CDA100D2C039 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62605F4B1951CDA000D2C039 = {
+			isa = PBXGroup;
+			children = (
+				62605F5D1951CDA000D2C039 /* ETRunnerBar */,
+				62605F7C1951CDA100D2C039 /* ETRunnerBarTests */,
+				62605F561951CDA000D2C039 /* Frameworks */,
+				62605F551951CDA000D2C039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62605F551951CDA000D2C039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62605F541951CDA000D2C039 /* ETRunnerBar.app */,
+				62605F751951CDA000D2C039 /* ETRunnerBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62605F561951CDA000D2C039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62605F571951CDA000D2C039 /* Foundation.framework */,
+				62605F591951CDA000D2C039 /* CoreGraphics.framework */,
+				62605F5B1951CDA000D2C039 /* UIKit.framework */,
+				62605F761951CDA100D2C039 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62605F5D1951CDA000D2C039 /* ETRunnerBar */ = {
+			isa = PBXGroup;
+			children = (
+				62605F661951CDA000D2C039 /* AppDelegate.h */,
+				62605F671951CDA000D2C039 /* AppDelegate.m */,
+				62605F691951CDA000D2C039 /* Main.storyboard */,
+				62605F6C1951CDA000D2C039 /* ViewController.h */,
+				62605F6D1951CDA000D2C039 /* ViewController.m */,
+				62605F6F1951CDA000D2C039 /* Images.xcassets */,
+				62605F5E1951CDA000D2C039 /* Supporting Files */,
+			);
+			path = ETRunnerBar;
+			sourceTree = "<group>";
+		};
+		62605F5E1951CDA000D2C039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62605F5F1951CDA000D2C039 /* ETRunnerBar-Info.plist */,
+				62605F601951CDA000D2C039 /* InfoPlist.strings */,
+				62605F631951CDA000D2C039 /* main.m */,
+				62605F651951CDA000D2C039 /* ETRunnerBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62605F7C1951CDA100D2C039 /* ETRunnerBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				62605F821951CDA100D2C039 /* ETRunnerBarTests.m */,
+				62605F7D1951CDA100D2C039 /* Supporting Files */,
+			);
+			path = ETRunnerBarTests;
+			sourceTree = "<group>";
+		};
+		62605F7D1951CDA100D2C039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62605F7E1951CDA100D2C039 /* ETRunnerBarTests-Info.plist */,
+				62605F7F1951CDA100D2C039 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62605F531951CDA000D2C039 /* ETRunnerBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62605F861951CDA100D2C039 /* Build configuration list for PBXNativeTarget "ETRunnerBar" */;
+			buildPhases = (
+				62605F501951CDA000D2C039 /* Sources */,
+				62605F511951CDA000D2C039 /* Frameworks */,
+				62605F521951CDA000D2C039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETRunnerBar;
+			productName = ETRunnerBar;
+			productReference = 62605F541951CDA000D2C039 /* ETRunnerBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62605F741951CDA000D2C039 /* ETRunnerBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62605F891951CDA100D2C039 /* Build configuration list for PBXNativeTarget "ETRunnerBarTests" */;
+			buildPhases = (
+				62605F711951CDA000D2C039 /* Sources */,
+				62605F721951CDA000D2C039 /* Frameworks */,
+				62605F731951CDA000D2C039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62605F7B1951CDA100D2C039 /* PBXTargetDependency */,
+			);
+			name = ETRunnerBarTests;
+			productName = ETRunnerBarTests;
+			productReference = 62605F751951CDA000D2C039 /* ETRunnerBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62605F4C1951CDA000D2C039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ersen Tekin";
+				TargetAttributes = {
+					62605F741951CDA000D2C039 = {
+						TestTargetID = 62605F531951CDA000D2C039;
+					};
+				};
+			};
+			buildConfigurationList = 62605F4F1951CDA000D2C039 /* Build configuration list for PBXProject "ETRunnerBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62605F4B1951CDA000D2C039;
+			productRefGroup = 62605F551951CDA000D2C039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62605F531951CDA000D2C039 /* ETRunnerBar */,
+				62605F741951CDA000D2C039 /* ETRunnerBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62605F521951CDA000D2C039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62605F701951CDA000D2C039 /* Images.xcassets in Resources */,
+				62605F621951CDA000D2C039 /* InfoPlist.strings in Resources */,
+				62605F6B1951CDA000D2C039 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62605F731951CDA000D2C039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62605F811951CDA100D2C039 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62605F501951CDA000D2C039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62605F6E1951CDA000D2C039 /* ViewController.m in Sources */,
+				62605F681951CDA000D2C039 /* AppDelegate.m in Sources */,
+				62605F641951CDA000D2C039 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62605F711951CDA000D2C039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62605F831951CDA100D2C039 /* ETRunnerBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62605F7B1951CDA100D2C039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62605F531951CDA000D2C039 /* ETRunnerBar */;
+			targetProxy = 62605F7A1951CDA100D2C039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62605F601951CDA000D2C039 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62605F611951CDA000D2C039 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62605F691951CDA000D2C039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62605F6A1951CDA000D2C039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62605F7F1951CDA100D2C039 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62605F801951CDA100D2C039 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62605F841951CDA100D2C039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62605F851951CDA100D2C039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62605F871951CDA100D2C039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETRunnerBar/ETRunnerBar-Prefix.pch";
+				INFOPLIST_FILE = "ETRunnerBar/ETRunnerBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62605F881951CDA100D2C039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETRunnerBar/ETRunnerBar-Prefix.pch";
+				INFOPLIST_FILE = "ETRunnerBar/ETRunnerBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62605F8A1951CDA100D2C039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ETRunnerBar.app/ETRunnerBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETRunnerBar/ETRunnerBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ETRunnerBarTests/ETRunnerBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		62605F8B1951CDA100D2C039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ETRunnerBar.app/ETRunnerBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETRunnerBar/ETRunnerBar-Prefix.pch";
+				INFOPLIST_FILE = "ETRunnerBarTests/ETRunnerBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62605F4F1951CDA000D2C039 /* Build configuration list for PBXProject "ETRunnerBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62605F841951CDA100D2C039 /* Debug */,
+				62605F851951CDA100D2C039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62605F861951CDA100D2C039 /* Build configuration list for PBXNativeTarget "ETRunnerBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62605F871951CDA100D2C039 /* Debug */,
+				62605F881951CDA100D2C039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62605F891951CDA100D2C039 /* Build configuration list for PBXNativeTarget "ETRunnerBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62605F8A1951CDA100D2C039 /* Debug */,
+				62605F8B1951CDA100D2C039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62605F4C1951CDA000D2C039 /* Project object */;
+}
