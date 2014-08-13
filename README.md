@@ -10,6 +10,9 @@ You should initialize and customize if you want, in the viewDidLoad method.
 But also you should call these 4 ETRunnerBar methods inside the scrollView delegates to help ETRunnerBar to detect your scrollView's actions.
 
 ```objective-c
+
+runnerBar = [[ETRunnerBar alloc] init];
+
 -(void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
     [runnerBar ETScrollViewWillBeginDragging:scrollView];
 }
