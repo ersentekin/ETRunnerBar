@@ -3,6 +3,14 @@ ETRunnerBar
 
 ####Facebook iOS App's animated header bar library.
 
+![alt text](https://github.com/ersentekin/ETRunnerBar/blob/master/Images/form1.jpg "State 1")
+
+![alt text](https://github.com/ersentekin/ETRunnerBar/blob/master/Images/form2.jpg "State 2")
+
+![alt text](https://github.com/ersentekin/ETRunnerBar/blob/master/Images/form3.jpg "State 3")
+
+![alt text](https://github.com/ersentekin/ETRunnerBar/blob/master/Images/form4.jpg "State 4")
+
 You can find an example of the ETRunnerBar usage with ```UICollectionView```.
 
 You should initialize and customize if you want, in the viewDidLoad method.
