@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		624D58E8199B9C6A0008270F /* form1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624D58E4199B9C6A0008270F /* form1.jpg */; };
+		624D58E9199B9C6A0008270F /* form2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624D58E5199B9C6A0008270F /* form2.jpg */; };
+		624D58EA199B9C6A0008270F /* form3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624D58E6199B9C6A0008270F /* form3.jpg */; };
+		624D58EB199B9C6A0008270F /* form4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 624D58E7199B9C6A0008270F /* form4.jpg */; };
 		62605F581951CDA000D2C039 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F571951CDA000D2C039 /* Foundation.framework */; };
 		62605F5A1951CDA000D2C039 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F591951CDA000D2C039 /* CoreGraphics.framework */; };
 		62605F5C1951CDA000D2C039 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62605F5B1951CDA000D2C039 /* UIKit.framework */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		624D58E4199B9C6A0008270F /* form1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = form1.jpg; sourceTree = "<group>"; };
+		624D58E5199B9C6A0008270F /* form2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = form2.jpg; sourceTree = "<group>"; };
+		624D58E6199B9C6A0008270F /* form3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = form3.jpg; sourceTree = "<group>"; };
+		624D58E7199B9C6A0008270F /* form4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = form4.jpg; sourceTree = "<group>"; };
 		62605F541951CDA000D2C039 /* ETRunnerBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETRunnerBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62605F571951CDA000D2C039 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62605F591951CDA000D2C039 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,9 +92,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		624D58E3199B9C220008270F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				624D58E4199B9C6A0008270F /* form1.jpg */,
+				624D58E5199B9C6A0008270F /* form2.jpg */,
+				624D58E6199B9C6A0008270F /* form3.jpg */,
+				624D58E7199B9C6A0008270F /* form4.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		62605F4B1951CDA000D2C039 = {
 			isa = PBXGroup;
 			children = (
+				624D58E3199B9C220008270F /* Images */,
 				62605F901951CF9D00D2C039 /* README.md */,
 				62605F5D1951CDA000D2C039 /* ETRunnerBar */,
 				62605F7C1951CDA100D2C039 /* ETRunnerBarTests */,
@@ -244,9 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				624D58EB199B9C6A0008270F /* form4.jpg in Resources */,
+				624D58E9199B9C6A0008270F /* form2.jpg in Resources */,
 				62605F701951CDA000D2C039 /* Images.xcassets in Resources */,
 				62605F621951CDA000D2C039 /* InfoPlist.strings in Resources */,
 				62605F911951CF9D00D2C039 /* README.md in Resources */,
+				624D58E8199B9C6A0008270F /* form1.jpg in Resources */,
+				624D58EA199B9C6A0008270F /* form3.jpg in Resources */,
 				62605F6B1951CDA000D2C039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

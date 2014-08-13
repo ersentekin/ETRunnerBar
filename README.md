@@ -1,7 +1,7 @@
 ETRunnerBar
 ===========
 
-####Facebook iOS App like top and bottom header bar
+####Facebook iOS App's animated header bar library.
 
 You can find an example of the ETRunnerBar usage with ```UICollectionView```.
 
