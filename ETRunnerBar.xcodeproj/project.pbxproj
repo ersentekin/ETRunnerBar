@@ -22,6 +22,7 @@
 		62605F811951CDA100D2C039 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62605F7F1951CDA100D2C039 /* InfoPlist.strings */; };
 		62605F831951CDA100D2C039 /* ETRunnerBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F821951CDA100D2C039 /* ETRunnerBarTests.m */; };
 		62605F8F1951CDD500D2C039 /* ETRunnerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F8E1951CDD500D2C039 /* ETRunnerBar.m */; };
+		62605F911951CF9D00D2C039 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 62605F901951CF9D00D2C039 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		62605F821951CDA100D2C039 /* ETRunnerBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETRunnerBarTests.m; sourceTree = "<group>"; };
 		62605F8D1951CDD500D2C039 /* ETRunnerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETRunnerBar.h; path = ETRunnerBar/ETRunnerBar.h; sourceTree = "<group>"; };
 		62605F8E1951CDD500D2C039 /* ETRunnerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETRunnerBar.m; path = ETRunnerBar/ETRunnerBar.m; sourceTree = "<group>"; };
+		62605F901951CF9D00D2C039 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		62605F4B1951CDA000D2C039 = {
 			isa = PBXGroup;
 			children = (
+				62605F901951CF9D00D2C039 /* README.md */,
 				62605F5D1951CDA000D2C039 /* ETRunnerBar */,
 				62605F7C1951CDA100D2C039 /* ETRunnerBarTests */,
 				62605F561951CDA000D2C039 /* Frameworks */,
@@ -243,6 +246,7 @@
 			files = (
 				62605F701951CDA000D2C039 /* Images.xcassets in Resources */,
 				62605F621951CDA000D2C039 /* InfoPlist.strings in Resources */,
+				62605F911951CF9D00D2C039 /* README.md in Resources */,
 				62605F6B1951CDA000D2C039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +397,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ETRunnerBar/ETRunnerBar-Prefix.pch";
 				INFOPLIST_FILE = "ETRunnerBar/ETRunnerBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +411,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ETRunnerBar/ETRunnerBar-Prefix.pch";
 				INFOPLIST_FILE = "ETRunnerBar/ETRunnerBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +476,7 @@
 				62605F881951CDA100D2C039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62605F891951CDA100D2C039 /* Build configuration list for PBXNativeTarget "ETRunnerBarTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +485,7 @@
 				62605F8B1951CDA100D2C039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
