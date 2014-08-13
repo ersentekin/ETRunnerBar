@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ETRunnerBar.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource, UIScrollViewDelegate>
+
+@property (strong, nonatomic) ETRunnerBar* runnerBar;
+@property (strong, nonatomic) IBOutlet UICollectionView *mainCollectionView;
 
 @end
