@@ -23,6 +23,7 @@
 		62605F831951CDA100D2C039 /* ETRunnerBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F821951CDA100D2C039 /* ETRunnerBarTests.m */; };
 		62605F8F1951CDD500D2C039 /* ETRunnerBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 62605F8E1951CDD500D2C039 /* ETRunnerBar.m */; };
 		62605F911951CF9D00D2C039 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 62605F901951CF9D00D2C039 /* README.md */; };
+		62C71809199E28E8009A904B /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62C71808199E28E8009A904B /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		62605F8D1951CDD500D2C039 /* ETRunnerBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ETRunnerBar.h; path = ETRunnerBar/ETRunnerBar.h; sourceTree = "<group>"; };
 		62605F8E1951CDD500D2C039 /* ETRunnerBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ETRunnerBar.m; path = ETRunnerBar/ETRunnerBar.m; sourceTree = "<group>"; };
 		62605F901951CF9D00D2C039 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		62C71808199E28E8009A904B /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		62605F5D1951CDA000D2C039 /* ETRunnerBar */ = {
 			isa = PBXGroup;
 			children = (
+				62C71808199E28E8009A904B /* LICENSE.txt */,
 				62605F8C1951CDBB00D2C039 /* ETRunnerBar */,
 				62605F661951CDA000D2C039 /* AppDelegate.h */,
 				62605F671951CDA000D2C039 /* AppDelegate.m */,
@@ -247,6 +250,7 @@
 				62605F701951CDA000D2C039 /* Images.xcassets in Resources */,
 				62605F621951CDA000D2C039 /* InfoPlist.strings in Resources */,
 				62605F911951CF9D00D2C039 /* README.md in Resources */,
+				62C71809199E28E8009A904B /* LICENSE.txt in Resources */,
 				62605F6B1951CDA000D2C039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
