@@ -13,6 +13,13 @@ ETRunnerBar
 
 You can find an example of the ETRunnerBar usage with ```UICollectionView```.
 
+####Installation
+
+ETRunnerBar is available through CocoaPods. To install it, simply add the following line to your Podfile:
+
+pod "ETRunnerBar"
+===========
+
 You should initialize and customize if you want, in the viewDidLoad method.
 
 But also you should call these 4 ETRunnerBar methods inside the scrollView delegates to help ETRunnerBar to detect your scrollView's actions.
