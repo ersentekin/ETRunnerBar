@@ -274,6 +274,7 @@
 				62605F911951CF9D00D2C039 /* README.md in Resources */,
 				624D58E8199B9C6A0008270F /* form1.jpg in Resources */,
 				624D58EA199B9C6A0008270F /* form3.jpg in Resources */,
+				62C71809199E28E8009A904B /* LICENSE.txt in Resources */,
 				62605F6B1951CDA000D2C039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
