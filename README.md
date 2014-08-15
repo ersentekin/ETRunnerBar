@@ -1,10 +1,10 @@
 ETRunnerBar
 ===========
 
-[![CI Status](http://img.shields.io/travis/lansdon/LPAlert.svg?style=flat)](https://travis-ci.org/lansdon/LPAlert)
-[![Version](https://img.shields.io/cocoapods/v/LPAlert.svg?style=flat)](http://cocoadocs.org/docsets/LPAlert)
-[![License](https://img.shields.io/cocoapods/l/LPAlert.svg?style=flat)](http://cocoadocs.org/docsets/LPAlert)
-[![Platform](https://img.shields.io/cocoapods/p/LPAlert.svg?style=flat)](http://cocoadocs.org/docsets/LPAlert)
+[![CI Status](http://img.shields.io/travis/lansdon/ETRunnerBar.svg?style=flat)](https://github.com/ersentekin/ETRunnerBar)
+[![Version](https://img.shields.io/cocoapods/v/ETRunnerBar.svg?style=flat)](http://cocoadocs.org/docsets/ETRunnerBar)
+[![License](https://img.shields.io/cocoapods/l/LPAlert.svg?style=flat)](http://cocoadocs.org/docsets/ETRunnerBar)
+[![Platform](https://img.shields.io/cocoapods/p/LPAlert.svg?style=flat)](http://cocoadocs.org/docsets/ETRunnerBar)
 
 ####Facebook iOS App's animated header bar library.
 
