@@ -6,7 +6,7 @@ ETRunnerBar
 [![License](https://img.shields.io/cocoapods/l/LPAlert.svg?style=flat)](http://cocoadocs.org/docsets/ETRunnerBar)
 [![Platform](https://img.shields.io/cocoapods/p/LPAlert.svg?style=flat)](http://cocoadocs.org/docsets/ETRunnerBar)
 
-####Facebook iOS App's animated header bar library.
+#### Facebook iOS App's animated header bar library.
 
 ![alt text](https://github.com/ersentekin/ETRunnerBar/blob/master/Images/form1.jpg "State 1")
 
@@ -18,7 +18,7 @@ ETRunnerBar
 
 You can find an example of the ETRunnerBar usage with ```UICollectionView```.
 
-####Installation
+#### Installation
 
 ETRunnerBar is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
